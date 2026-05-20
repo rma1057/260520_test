@@ -1,0 +1,6 @@
+{
+  "name": "Arpeggio Agency Landing Page",
+  "description": "A high-fidelity, interactive landing page for a subscription-driven creative design and frontend engineering agency, featuring robust mockup project drawers, an interactive budget estimator calculator, simulated video testimonial canvas loops, and a live design assistant sandbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
