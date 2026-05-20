@@ -38,7 +38,7 @@ export default function PartnershipGrid() {
             </div>
 
             {/* Cat Photo Frame */}
-            <div className="mt-6 relative mx-auto aspect-square w-full max-w-[210px] rounded-xl overflow-hidden border border-zinc-800 bg-black/50 glow-orange">
+            <div className="mt-6 relative mx-auto aspect-square w-full max-w-[210px] rounded-xl overflow-hidden border border-zinc-800 bg-black/50 glow-blue">
               <img
                 src="/src/assets/images/satisfaction_cat_1779245225339.png"
                 alt="Satisfaction Assurance White Cat"

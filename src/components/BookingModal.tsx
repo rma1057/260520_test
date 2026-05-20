@@ -51,7 +51,7 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
             transition={{ type: "spring", duration: 0.5 }}
             className="relative w-full max-w-lg overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950 p-6 shadow-2xl md:p-8"
           >
-            {/* Top orange highlight line */}
+            {/* Top blue highlight line */}
             <div className="absolute top-0 right-0 left-0 h-[2px] bg-brand animate-pulse" />
 
             {/* Close Button */}

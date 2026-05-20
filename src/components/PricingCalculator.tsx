@@ -219,7 +219,7 @@ export default function PricingCalculator() {
             </div>
 
             {showDirectPlanMatch && (
-              <div className="rounded-xl border border-brand/20 bg-brand/5 p-4 space-y-3 relative glow-orange">
+              <div className="rounded-xl border border-brand/20 bg-brand/5 p-4 space-y-3 relative glow-blue">
                 <div className="flex items-center justify-between">
                   <span className="font-mono text-[10px] uppercase text-brand tracking-wider font-semibold">
                     ⭐ 실시간 맞춤 권장 정액 요금제 매칭

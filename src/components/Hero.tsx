@@ -80,7 +80,7 @@ export default function Hero({ onOpenBookModal }: HeroProps) {
           <div className="lg:col-span-6 relative flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md md:max-w-lg aspect-square md:aspect-[4/5] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/30 shadow-2xl group flex items-end">
               
-              {/* Massive branding background text layer in orange */}
+              {/* Massive branding background text layer in Toss Blue */}
               <div className="absolute inset-0 select-none overflow-hidden flex flex-col justify-between py-10 opacity-30 pointer-events-none">
                 <div className="font-display font-black text-7xl md:text-[110px] tracking-tighter text-brand leading-none pl-4 uppercase">
                   Arpeggio
@@ -98,7 +98,7 @@ export default function Hero({ onOpenBookModal }: HeroProps) {
                 initial={{ opacity: 0, scale: 1.05 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.2, ease: "easeOut" }}
-                className="absolute inset-4 rounded-xl overflow-hidden border border-zinc-800/80 glow-orange"
+                className="absolute inset-4 rounded-xl overflow-hidden border border-zinc-800/80 glow-blue"
               >
                 <img
                   src="/src/assets/images/cool_fashion_hero_1779245126928.png"

@@ -65,7 +65,7 @@ export default function WhatWeDo() {
                   onMouseLeave={() => setHoveredIndex(null)}
                   className={`rounded-2xl border p-6 bg-zinc-950/40 select-none transition-all duration-300 ${
                     isHovered
-                      ? "border-brand border-opacity-70 bg-zinc-900/10 glow-orangeScale"
+                      ? "border-brand border-opacity-70 bg-zinc-900/10 glow-blueScale"
                       : "border-zinc-900"
                   }`}
                 >

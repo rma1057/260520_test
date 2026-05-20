@@ -32,7 +32,7 @@ export default function Testimonials() {
 
       // Render mathematical digital waves mimicking futuristic abstract video
       ctx.beginPath();
-      ctx.strokeStyle = "rgba(255, 71, 0, 0.4)";
+      ctx.strokeStyle = "rgba(0, 100, 255, 0.4)";
       ctx.lineWidth = 1.5;
       for (let x = 0; x < width; x += 3) {
         const y = height / 2 + Math.sin(x * 0.006 + offset) * 45 * Math.cos(x * 0.002 + offset * 0.5);

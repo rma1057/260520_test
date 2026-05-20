@@ -32,8 +32,8 @@ export default function FaqSection() {
                 key={faq.id}
                 className={`rounded-xl border transition-all duration-300 ${
                   isOpen
-                    ? "border-brand border-opacity-60 bg-brand/5 glow-orange"
-                    : "border-zinc-900 bg-zinc-900/10 hover:border-zinc-800"
+                    ? "border-brand border-opacity-60 bg-brand/5 glow-blue"
+                    : "border-zinc-900 bg-zinc-900/10 hover:border-zinc-850"
                 }`}
               >
                 {/* Trigger Row */}

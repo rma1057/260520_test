@@ -118,7 +118,7 @@ export default function MockChat({ isOpen, onClose }: MockChatProps) {
                     msg.sender === "user"
                       ? "bg-brand text-white rounded-tr-none"
                       : msg.isSpecial
-                      ? "border border-brand/30 bg-brand/5 text-zinc-100 rounded-tl-none glow-orange"
+                      ? "border border-brand/30 bg-brand/5 text-zinc-100 rounded-tl-none glow-blue"
                       : "bg-zinc-900 text-zinc-200 rounded-tl-none border border-zinc-800"
                   }`}
                 >

@@ -66,7 +66,7 @@ export default function App() {
                   key={plan.id}
                   className={`rounded-2xl border p-6 md:p-8 bg-zinc-950 flex flex-col justify-between relative group transition duration-300 ${
                     plan.isPopular
-                      ? "border-brand border-opacity-70 glow-orangeScale md:scale-[1.02]"
+                      ? "border-brand border-opacity-70 glow-blueScale md:scale-[1.02]"
                       : "border-zinc-900 hover:border-zinc-805"
                   }`}
                 >
@@ -164,7 +164,7 @@ export default function App() {
       <div className="fixed bottom-6 right-6 z-30">
         <button
           onClick={() => setIsChatOpen(true)}
-          className="relative group flex h-14 w-14 items-center justify-center rounded-full bg-brand text-white shadow-2xl transition hover:scale-110 active:scale-95 glow-orange-lg cursor-pointer"
+          className="relative group flex h-14 w-14 items-center justify-center rounded-full bg-brand text-white shadow-2xl transition hover:scale-110 active:scale-95 glow-blue-lg cursor-pointer"
           aria-label="실시간 디자인 상담 챗 봇 열기"
         >
           <span className="absolute inset-0 bg-brand/20 rounded-full animate-ping pointer-events-none" />
